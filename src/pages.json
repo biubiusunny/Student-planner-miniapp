@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/course/index",
+      "style": {
+        "navigationBarTitleText": "课程管理",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/course/detail",
+      "style": {
+        "navigationBarTitleText": "课程详情"
+      }
+    },
+    {
+      "path": "pages/course/add",
+      "style": {
+        "navigationBarTitleText": "添加课程"
+      }
+    },
+    {
+      "path": "pages/course/edit",
+      "style": {
+        "navigationBarTitleText": "编辑课程"
+      }
+    },
+    {
+      "path": "pages/task/index",
+      "style": {
+        "navigationBarTitleText": "任务管理",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/task/detail",
+      "style": {
+        "navigationBarTitleText": "任务详情"
+      }
+    },
+    {
+      "path": "pages/task/add",
+      "style": {
+        "navigationBarTitleText": "添加任务"
+      }
+    },
+    {
+      "path": "pages/task/edit",
+      "style": {
+        "navigationBarTitleText": "编辑任务"
+      }
+    },
+    {
+      "path": "pages/goal/index",
+      "style": {
+        "navigationBarTitleText": "目标管理",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/goal/detail",
+      "style": {
+        "navigationBarTitleText": "目标详情"
+      }
+    },
+    {
+      "path": "pages/goal/create",
+      "style": {
+        "navigationBarTitleText": "创建目标"
+      }
+    },
+    {
+      "path": "pages/goal/edit",
+      "style": {
+        "navigationBarTitleText": "编辑目标"
+      }
+    },
+    {
+      "path": "pages/focus/index",
+      "style": {
+        "navigationBarTitleText": "专注模式",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/calendar/index",
+      "style": {
+        "navigationBarTitleText": "日历视图",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/profile/settings",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/profile/subscribe",
+      "style": {
+        "navigationBarTitleText": "消息订阅"
+      }
+    },
+    {
+      "path": "pages/profile/logs",
+      "style": {
+        "navigationBarTitleText": "日志监控",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/profile/export",
+      "style": {
+        "navigationBarTitleText": "导出数据"
+      }
+    },
+    {
+      "path": "pages/profile/import",
+      "style": {
+        "navigationBarTitleText": "导入数据"
+      }
+    },
+    {
+      "path": "pages/gpa/index",
+      "style": {
+        "navigationBarTitleText": "GPA计算器",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大学生规划",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tab-home.png",
+        "selectedIconPath": "static/images/tab-home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/course/index",
+        "iconPath": "static/images/tab-course.png",
+        "selectedIconPath": "static/images/tab-course-active.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/task/index",
+        "iconPath": "static/images/tab-task.png",
+        "selectedIconPath": "static/images/tab-task-active.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/goal/index",
+        "iconPath": "static/images/tab-goal.png",
+        "selectedIconPath": "static/images/tab-goal-active.png",
+        "text": "目标"
+      },
+      {
+        "pagePath": "pages/focus/index",
+        "iconPath": "static/images/tab-focus.png",
+        "selectedIconPath": "static/images/tab-focus-active.png",
+        "text": "专注"
+      }
+    ]
+  }
+}
